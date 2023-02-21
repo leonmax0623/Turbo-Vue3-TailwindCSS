@@ -1,0 +1,1 @@
+import{o as t,d as s,i as e}from"./vendor.36c281f3.js";const o={},r={class:"text-sm font-medium text-gray-700 mb-1"};o.render=function(o,a){return t(),s("div",r,[e(o.$slots,"default")])};export{o as _};

@@ -1,0 +1,1 @@
+import{o as s,d as e,i as n}from"./vendor.36c281f3.js";const o={},r={class:"relative z-0 inline-flex shadow-sm rounded-md"};o.render=function(o,a){return s(),e("span",r,[n(o.$slots,"default")])};export{o as _};

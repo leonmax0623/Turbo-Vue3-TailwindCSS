@@ -1,0 +1,32 @@
+stages:
+  - deploy
+
+dev_deploy:
+  stage: deploy
+  script:
+    - cd /home/www/dev.apm-turbodom.ru/frontend
+    - git fetch
+    - git checkout dev
+    - git pull
+    - npm i
+    - npm run build
+    - ln -s /home/www/dev.apm-turbodom.ru/api/storage/app/public /home/www/dev.apm-turbodom.ru/frontend/public/storage
+  only:
+    - dev
+  tags:
+    - runner
+
+prod_deploy:
+  stage: deploy
+  script:
+    - cd /home/www/apm-turbodom.ru/frontend
+    - git fetch
+    - git checkout main
+    - git pull
+    - npm i
+    - npm run build
+    - ln -s /home/www/apm-turbodom.ru/api/storage/app/public /home/www/apm-turbodom.ru/frontend/public/storage
+  only:
+    - main
+  tags:
+    - runner

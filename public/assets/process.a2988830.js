@@ -1,0 +1,1 @@
+import{c as e,E as r,F as s}from"./vendor.36c281f3.js";function t(){return e((()=>({name:{required:r.withMessage("Укажите вопрос",s)}})))}function n(){return e((()=>({name:{required:r.withMessage("Укажите вопрос",s)}})))}function a(){return e((()=>({title:{required:r.withMessage("Укажите заголовок шаблона",s)}})))}export{a as d,t as f,n as w};

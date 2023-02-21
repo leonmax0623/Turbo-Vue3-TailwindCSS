@@ -1,0 +1,1 @@
+import{c as e,E as r,F as a}from"./vendor.36c281f3.js";function s(){return e((()=>({name:{required:r.withMessage("Укажите имя",a)},car_mark_id:{required:r.withMessage("Выберите марку автомобиля",a)}})))}function i(){return e((()=>({name:{required:r.withMessage("Укажите имя",a)}})))}export{i as c,s as f};

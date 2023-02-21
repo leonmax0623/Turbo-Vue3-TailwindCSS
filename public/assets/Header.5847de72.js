@@ -1,0 +1,1 @@
+import{o as t,d as e,i as s}from"./vendor.36c281f3.js";const o={},r={class:"mt-5 mb-2 text-lg leading-6 font-medium text-gray-900"};o.render=function(o,a){return t(),e("h2",r,[s(o.$slots,"default")])};export{o as _};
